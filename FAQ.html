@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고객센터</title>
+    <link rel="stylesheet" href="FAQ.css">
+</head>
+<body>
+    <header>
+        <h1>스마트아이오 (SmartIo)</h1>
+        <p>스마트 라이프를 선도하는 최고의 IoT 솔루션 제공 업체</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Home.html">홈</a></li>
+            <li><a href="Company_info.html">회사 소개</a></li>
+            <li class="dropdown">
+                <a href="#">상품 목록</a>
+                <ul class="dropdown-menu">
+                    <li><a href="AI_speaker.html">스피커</a></li>
+                    <li><a href="AI_light.html">조명</a></li>
+                </ul>
+            </li>
+            <li><a href="login.html">로그인</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>고객센터</h2>
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="faq">FAQ</button>
+            <button class="tab-btn" data-tab="guide">사용 가이드</button>
+        </div>
+        <div id="faq" class="tab-content active">
+            <h3>자주 묻는 질문 (FAQ)</h3>
+            <div class="faq-item">
+                <h4>Q: AI 스피커는 어떻게 연결하나요?</h4>
+                <p>A: 제품 상자에 포함된 사용 설명서를 참조하거나 '사용 가이드' 섹션을 확인하세요.</p>
+            </div>
+            <div class="faq-item">
+                <h4>Q: 스마트 조명은 어떤 색상을 지원하나요?</h4>
+                <p>A: 총 16만 가지 이상의 색상을 지원하며, 스마트폰 앱으로 설정할 수 있습니다.</p>
+            </div>
+        </div>
+        <div id="guide" class="tab-content">
+            <h3>사용 가이드</h3>
+            <p>아래의 링크를 통해 제품별 상세 사용 가이드를 확인하세요:</p>
+            <ul>
+                <li><a href="AI_speaker_guide.pdf" target="_blank">AI 스피커 사용 가이드</a></li>
+                <li><a href="AI_light_guide.pdf" target="_blank">스마트 조명 사용 가이드</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 스마트아이오. All Rights Reserved.</p>
+    </footer>
+    <script src="CustomerService.js"></script>
+</body>
+</html>
